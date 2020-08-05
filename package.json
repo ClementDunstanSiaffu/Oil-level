@@ -1,0 +1,17 @@
+{
+  "name": "oil-level",
+  "version": "1.0.0",
+  "description": "this for determining the oil level",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
