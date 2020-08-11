@@ -8,8 +8,9 @@ exports.getLevel = (req,res)=>{
     const level = req.params;
     console.log(level.level)
     const date = new Date();
-    const thatDate = date.toLocaleDateString();
-    const time = date.toLocaleTimeString();
+    const thatDate = date.toLocaleDateString("en-US",{timeZone:"Africa/Nairobi"});
+    const time = date.toLocaleTimeString("en-US",{timeZone:"Africa/Nairobi"});
+    
     const oil = new Oil()
     
     oil.level = level.level;
